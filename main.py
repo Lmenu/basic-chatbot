@@ -7,10 +7,11 @@ pairs = [
     ["what's your name?", ["I'm just a chatbot, so I don't have a name. How can I help you?"]],
     ["bye|goodbye", ["Goodbye!", "Have a great day!"]],
     ["Are you AI?", ["No, I am a chatbot!", "No!"]],
+    # add more like this .
     
     
 ]
-
+#simple code
 chatbot = Chat(pairs, reflections)
 
 def main():
